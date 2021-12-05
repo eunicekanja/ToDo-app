@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="head">
+        <div class="logo">
+            <p class="mainP">TODO</p>
+        </div>
+        <div class="light-mode">
+            
+        </div>
+    </header>
+        <div class="todo-container">
+            <div class="add-todo">
+                <input type="checkbox" name="check" class='check'>
+                <input type="text" class="todoInput" placeholder="Create a new todo">
+            </div>
+            <div class="todo-list">
+                <!--<div class="todo-item">
+                    <div class="item">
+                        <input type="checkbox" name="check" class="check complete">
+                        <p class="secondaryP">Complete javascript course</p>
+                    </div>
+                    <div class="item-two">
+                     <img src="images/icon-cross.svg" alt="">
+                    </div>
+                </div>-->
+                
+            </div>
+            <div class="items-left hidden">
+                <div class="items">
+                    <p class="secondary2">5 items left</p>
+                    <a href="#" class="clear">Clear Completed</a>
+                </div>
+                <div class="categories hidden">
+                    <a href="#" class="link all" value='all' data-id="all">All</a>
+                    <a href="#" class="link active" value='active' data-id="active">Active</a>
+                    <a href="#" class="link complete" value=complete data-id="complete">Completed</a>
+                    
+                </div>
+            </div>
+            <div class="drag hidden">
+                <p class="secondary3">Drag and drop to reorder list</p>
+            </div>
+        </div>
+       
+    
+<script src="main.js"></script>  
+</body>
+</html>
